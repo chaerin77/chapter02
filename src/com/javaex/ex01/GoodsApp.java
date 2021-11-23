@@ -6,7 +6,7 @@ public class GoodsApp {
 
 		Goods camera = new Goods(); //틀에 반죽뿌린상태에서 set 팥이고 get 슈크림
 		
-		camera.setName("니콘"); //셋네임에 니콘이란 값을 넣어준건가?  셋네임을 통해서 굿즈클래스안에있는 name이라는필드의 니콘이라는값을넣어준거
+		camera.setName("니콘"); 
 		//String cameraName = camera.getName(); //읽은걸바로출력
 		camera.setPrice(400000);
 		camera.showInfo();
