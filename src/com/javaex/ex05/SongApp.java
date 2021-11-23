@@ -17,6 +17,7 @@ public class SongApp {
 		
 		Song s2 = new Song( "거짓말", "BiGBANG", "Always", "G-DRAGON", 5,2007); 
 		
+		s2.toString();
 		s2.showInfo();	
 		
 		
