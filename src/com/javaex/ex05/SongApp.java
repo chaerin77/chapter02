@@ -21,12 +21,12 @@ public class SongApp {
 		
 		
 		Song s3 = new Song();
-		s1.setTitle("벚꽃엔딩");
-		s1.setArtist("버스커버스커");
-		s1.setAlbum("버스커버스커1집");
-		s1.setComposer("장범준");
-		s1.setTrack(4);
-		s1.setYear(2012);
+		s3.setTitle("벚꽃엔딩");
+		s3.setArtist("버스커버스커");
+		s3.setAlbum("버스커버스커1집");
+		s3.setComposer("장범준");
+		s3.setTrack(4);
+		s3.setYear(2012);
 		
 		s3.showInfo();
 	}
