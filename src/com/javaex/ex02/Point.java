@@ -50,8 +50,21 @@ public class Point {  //틀부터 만들기
     }
     
     
+    
+    
     public void draw() {
     	System.out.println("점[x=" +x+","+" y=" +y+"]을 그렸습니다.");
     	               //            x               y
     }
+    //action 에 true가 오면 그리는기능, action에 false가 오면 지우는 기능 action=true면 위에꺼랑 똑같이 실행
+    public void draw(boolean action) {
+    	if(action == true) {
+    		System.out.println("점[x=" +x+","+" y=" +y+"]을 그렸습니다.");
+    	}else if(action==false) {
+    		System.out.println("점[x=" +x+","+" y=" +y+"]을 지웠습니다.");
+    	}else {
+    		System.out.println("잘못된 입력"); //else if로 끝나는거 좀 찝찝해서 써준것뿐. 얘는 이상태로는 오른쪽에 출력될수가없음 () 안에 ture/false써있는게 아니라서
+    	}
+    	
+    } //오버로딩. 같은이름으로 여러개사용가능 여기서 이름은draw
 }

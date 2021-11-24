@@ -3,7 +3,7 @@ package com.javaex.ex05;
 public class Song {
 
 	//필드
-	private String title;
+	private String title; //거짓말  생성자가 여기 값넣는것까지 하고 사라짐
 	private String artist;
 	private String album;
 	private String composer;
@@ -15,7 +15,7 @@ public class Song {
 	public Song() {
 		
 	}
-	//getter setter 쓰지 않고..메인에서 s1.setTitle이런거 안쓰고도 데이터값 나오게하려고?써보려는거 라고표현해도되나
+	//getter setter 쓰지 않고..메인에서 s1.setTitle이런거 안쓰고도 데이터값 나오게하려고
 	public Song(String title, String artist, String album, String composer, int year, int track) {
 		this.title = title;
 		this.artist = artist;
@@ -28,18 +28,6 @@ public class Song {
 	
 	//메소드  - g/s
 	
-/*	public void setTitle(String title) {
-		this.title = title;
-	}
-	
-	public String getTitle() {
-		return title;
-				//왜 순서저렇게 되면 안되는거지??
-				
-	}  */
-	
-	//메소드 - 일반
-	
 	
 }
 
@@ -50,6 +38,8 @@ public class Song {
 	public void setTitle(String title) {
 		this.title = title;
 	}
+	
+	
 
 	public String getArtist() {
 		return artist;
@@ -91,11 +81,13 @@ public class Song {
 		this.track = track;
 	}
 
+	//메소드 - 일반
+
 	@Override
 	public String toString() {
-		return "Song [title=" + title + "]";
+		return "Song [title=" + title + ", artist=" + artist + ", album=" + album + ", composer=" + composer + ", year="
+				+ year + ", track=" + track + "]";
 	}
-
 	public void showInfo() {
 		System.out.println(artist+", "+ title + " ( "+ album + ", "+ year + ", "+ track+"번 track"+ ", "+ composer+" 작곡 )" );
 		

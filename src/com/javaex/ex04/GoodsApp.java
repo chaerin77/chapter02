@@ -15,7 +15,7 @@ public class GoodsApp {
 		Goods camera = new Goods("니콘",400000);
 		System.out.println(camera.toString()); //두번째 생성자들어갔음
 		
-		//이렇게 쓸거면 세터는필요없지않나요? 근데 운영하다보면 가격 50만으로 바꿔야할경우가 있어 setprice가 없으면 가격을 바꿔줄수가 없어
+		//이렇게 쓸거면 세터는필요없지않은가? 근데 운영하다보면 가격 50만으로 바꿔야할경우가 있다 setprice가 없으면 가격을 바꿔줄수가 없음
 		
 		Goods cup = new Goods();
 		cup.setName("머그컵");

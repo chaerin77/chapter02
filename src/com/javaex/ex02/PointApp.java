@@ -15,7 +15,7 @@ public class PointApp {
 	    p01.setX(5);
         p01.setY(5);	
 	    
-	    p01.draw();
+	    p01.draw();//파라미터가 point파일에 draw메소드 두개중에 draw() draw(boolean action) 전자에 해당하는거라 점그렸습니다 출력될거임
 	    
 	    Point p02 = new Point();
 	    p02.setX(10);
@@ -30,6 +30,10 @@ public class PointApp {
 	    p03.setY(101);
 	    p03.draw(); */
 	    
+	    Point p03 = new Point(55,65);
+	    p03.draw(true);
+	    p03.draw(false); //괄호 안에 boolean action쓰는거아님..그 결과값을 넣어주는느낌 전자저첢쓰는건 int x쓴거랑똑같음
+	    p03.draw(); //메소드 같은이름으로 이런애랑 저 위에 true/false 써준 boolean action얘 이런식으로 여러개를 쓸수있다 오버로딩.
 	}
 
 }

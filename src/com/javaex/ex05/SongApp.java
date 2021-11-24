@@ -12,12 +12,12 @@ public class SongApp {
 		s1.setTrack(3);
 		s1.setYear(2010);
 		
-		s1.toString();
 		s1.showInfo();
+		//System.out.println(s1.toString());
 		
 		Song s2 = new Song( "거짓말", "BiGBANG", "Always", "G-DRAGON", 5,2007); 
 		
-		s2.toString();
+		//System.out.println(s2.toString());
 		s2.showInfo();	
 		
 		
