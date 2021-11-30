@@ -15,7 +15,7 @@ public class Student extends Person{ //자식임 부모꺼 갖고올거임 -->ex
 		this.schoolName=schoolName;
 	    System.out.println("Student(1)");
 	}
-
+	
 	public Student(String name, int age, String schoolName) {
 		/*
 		super.name=name;//name,age 마음대로쓸순있지만 부모쪽에 있는거기때문에 super를사용해줌

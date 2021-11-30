@@ -63,8 +63,12 @@ public class ShapeApp {
 			tArray[i].draw();
 		}
 		
-		
-	    
+		/*설명하려고해본것
+		Shape[] sArray = new Shape[9];
+		sArray[0] = r01;
+		sArray[1] = c01;
+		sArray[2] = t01;
+	    */   
 	}
 
 }
